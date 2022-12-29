@@ -1,0 +1,63 @@
+.wrapper .sidebar {
+    background-color: #fff;
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    border: 1px solid #E9E9E9;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.15);
+    z-index: 0;
+}
+
+.wrapper .sidebar ul {
+    margin-top: 140px
+}
+
+.wrapper .sidebar ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 30px;
+    color: #A8A8A9;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.wrapper .sidebar ul li img {
+    margin-right: 20px;
+}
+
+.wrapper .sidebar .contact-section {
+    margin-top: 230px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.wrapper .sidebar .contact-section button {
+    width: 181px;
+    height: 40px;
+    background: #F4BC33;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+.wrapper .sidebar .contact-section span {
+    margin-top: 30px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.active {
+    font-weight: 700;
+    color: #000
+}

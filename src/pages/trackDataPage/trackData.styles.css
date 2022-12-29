@@ -1,0 +1,124 @@
+.main-div {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 340px;
+}
+
+.main-div .heading-div {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0 20px;
+}
+
+.main-div .heading-div h3 {
+    color: #2F2E41;
+}
+
+.main-div .heading-div button {
+    width: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.main-div .heading-div button i {
+    font-size: 18px;
+    margin-top: 6px;
+    color: #2F2E41;
+}
+
+.main-div .body-div {
+    width: 1160px;
+    height: 560px;
+    background: #E9E9E9;
+}
+
+.color {
+    color: #B20F0F;
+}
+
+.main-div .body-div .ace-points {
+    margin: 20px 30px 10px;
+}
+
+.main-div .body-div .ace-points h2 {
+    font-size: 28px;
+}
+
+.main-div .body-div .reward-steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-div .body-div .reward-details {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 1100px;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.main-div .body-div .reward-details h4 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.main-div .body-div .reward-details p {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.main-div .body-div .text-section {
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.main-div .body-div .button-section {
+    width: 50%;
+    float: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.main-div .body-div .button-section button {
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 388px;
+    height: 40px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.main-div .body-div .button-section .copy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 150px;
+}
+
+.main-div .body-div .button-section .invite-button {
+    color: #fff;
+    background-color: #B20F0F;
+}

@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 30px;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar .logo {
+    color: #B20F0F;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.navbar .search-bar {
+    width: 450px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 200px;
+}
+
+.navbar .search-bar input {
+    width: 410px;
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.navbar .search-bar button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.navbar .search-bar button i {
+    font-size: 15px;
+    color: #7C7E81;
+    width: 30px;
+}
+
+.navbar .user-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .user-section h4 {
+    padding: 10px 15px;
+}
+
+.navbar .user-section img {
+    margin-top: 10px;
+}
