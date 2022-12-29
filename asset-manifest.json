@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/infinitypillars/static/css/main.ff669463.css",
+    "main.js": "/infinitypillars/static/js/main.acbb5a7e.js",
+    "static/js/787.1e2f75da.chunk.js": "/infinitypillars/static/js/787.1e2f75da.chunk.js",
+    "static/media/reward-steps.png": "/infinitypillars/static/media/reward-steps.3139730fe1701167c09b.png",
+    "index.html": "/infinitypillars/index.html",
+    "main.ff669463.css.map": "/infinitypillars/static/css/main.ff669463.css.map",
+    "main.acbb5a7e.js.map": "/infinitypillars/static/js/main.acbb5a7e.js.map",
+    "787.1e2f75da.chunk.js.map": "/infinitypillars/static/js/787.1e2f75da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff669463.css",
+    "static/js/main.acbb5a7e.js"
+  ]
+}
